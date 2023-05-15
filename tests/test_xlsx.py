@@ -10,6 +10,6 @@ def test_xlsx():
             sheet = workbook.active
             print(sheet.cell(row=3, column=2).value)
         else:
-            print("Файл не найден")
+            print("Файл не найден.")
 
         assert sheet.cell(row=3, column=2).value == 'Mara'

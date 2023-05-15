@@ -23,4 +23,4 @@ def test_xls():
             assert sheet.cell_value(rowx=0, colx=1) == 'First Name'
 
         else:
-            print("Файл не найден")
+            print("Файл не найден.")

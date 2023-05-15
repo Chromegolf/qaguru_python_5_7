@@ -13,4 +13,4 @@ def test_pdf():
             assert number_of_pages == 412
             assert 'pytest Documentation' in text
         else:
-            print("Файл не найден")
+            print("Файл не найден.")
